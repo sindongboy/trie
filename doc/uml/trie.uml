@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.skplanet.nlp.trie</OriginalElement>
+  <nodes>
+    <node x="448.32514619883045" y="640.5263157894736">com.skplanet.nlp.trie.TrieData</node>
+    <node x="426.0" y="0.0">com.skplanet.nlp.trie.AbstractTrie</node>
+    <node x="0.0" y="0.0">com.skplanet.nlp.trie.AbstractTokenTrie</node>
+    <node x="16.0" y="368.0">com.skplanet.nlp.trie.TokenTrie</node>
+    <node x="430.5" y="302.0">com.skplanet.nlp.trie.Trie</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.skplanet.nlp.trie.Trie" target="com.skplanet.nlp.trie.AbstractTrie">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="126.0" />
+    </edge>
+    <edge source="com.skplanet.nlp.trie.TokenTrie" target="com.skplanet.nlp.trie.AbstractTokenTrie">
+      <point x="0.0" y="-147.5" />
+      <point x="0.0" y="159.0" />
+    </edge>
+    <edge source="com.skplanet.nlp.trie.Trie" target="com.skplanet.nlp.trie.TrieData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9606741573033708" x="373.5" y="435.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
